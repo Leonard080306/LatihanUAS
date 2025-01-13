@@ -11,12 +11,13 @@ body {
     text-align: center;
     margin: 0;
 }
-
 #title {
     text-align: center;
 }
 #content {
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
 }
 article, #theme {
     margin-left: 50px;

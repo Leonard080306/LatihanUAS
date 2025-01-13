@@ -1,5 +1,13 @@
+var content = true;
 function showContent () {
-    document.getElementById("content").style.display = "block";
+    if (content == true) {
+        document.getElementById("content").style.height = "0";
+        content = false;
+    }
+    else {
+        document.getElementById("content").style.height = "1350px";
+        content = true;
+    }
 }
 
 function normal() {
